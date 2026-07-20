@@ -9,7 +9,6 @@ import SelectedWorks from "./SelectedWorks";
 import VectorBridge from "./VectorBridge";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import Testimonial from "./Testimonial";
 import Navigation from "@/components/Navigation";
 
 const CursorFollower = () => {
@@ -248,11 +247,7 @@ const Index = () => {
           <VectorBridge />
         </div>
 
-        <div className="bg-black text-white relative z-20">
-          <Testimonial />
-        </div>
-
-        {/* Change contact layer to z-20 and relative so it scrolls normally OVER the footer */}
+        {/* Contact layer scrolls normally over the footer. */}
         <div id="contact" className="relative z-20 bg-white text-black">
           <Contact />
         </div>
