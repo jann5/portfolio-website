@@ -1,8 +1,8 @@
-const nodemailer = require("nodemailer");
+import nodemailer from "nodemailer";
 
 const required = ["MAIL_USER", "MAIL_APP_PASSWORD", "MAIL_TO"];
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST");
     return res.status(405).json({ success: false });
@@ -40,4 +40,4 @@ module.exports = async (req, res) => {
     console.error("Nie udało się wysłać formularza:", error.message);
     return res.status(500).json({ success: false });
   }
-};
+}
