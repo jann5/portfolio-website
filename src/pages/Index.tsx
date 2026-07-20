@@ -49,24 +49,6 @@ const BrandLogo = () => (
   </div>
 );
 
-const AvailabilityBadge = () => (
-  <motion.div
-    initial={{ opacity: 0, y: -10 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.4, ease: "easeOut" }}
-    className="absolute z-10 left-1/2 -translate-x-1/2 hidden md:flex items-center gap-2 pointer-events-none"
-    style={{ top: "2.25rem" }}
-  >
-    <span className="relative flex h-1.5 w-1.5">
-      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-      <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
-    </span>
-    <span className="font-sans font-black text-[9px] tracking-[0.25em] uppercase text-white">
-      Dostępny do współpracy
-    </span>
-  </motion.div>
-);
-
 const SocialStrip = () => {
   const socials = [
     { label: "GitHub", href: "https://github.com/jann5" },
@@ -185,7 +167,6 @@ const Index = () => {
 
       {/* Hero */}
       <section className="relative h-screen bg-black flex flex-col px-6 py-12 md:px-16 md:py-16 z-20 overflow-hidden">
-        <AvailabilityBadge />
         <SocialStrip />
         <SpinningCTA />
         <div className="hidden lg:block"><SplashCursor /></div>
