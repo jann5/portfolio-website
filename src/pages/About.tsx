@@ -46,24 +46,24 @@ const About = () => {
           style={{ y: y1, opacity: opacity1 }}
         >
           <h2 className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest">
-            Doświadczenie i Edukacja
+            Podejście i realizacje
           </h2>
         </motion.div>
 
         {/* Right Column: The Data List */}
         <div className="md:col-span-9 lg:col-span-9 flex flex-col gap-10 md:gap-12">
 
-          {/* 01. EDUCATION */}
+          {/* 01. APPROACH */}
           <motion.div style={{ y: y2, opacity: opacity2 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              01. Edukacja
+              01. Podejście
             </h3>
             <div className="flex flex-col">
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Liceum Ogólnokształcące w Tarnowie Podgórnym
+                Od koncepcji do działającego produktu
               </p>
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                Profil Matematyka-Informatyka, 18 lat
+                Projektuję interfejs, buduję logikę aplikacji i dopracowuję wdrożenie.
               </p>
             </div>
           </motion.div>
@@ -71,7 +71,7 @@ const About = () => {
           {/* 02. EXPERIENCE */}
           <motion.div style={{ y: y3, opacity: opacity3 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              02. Projekty
+              02. Wybrane realizacje
             </h3>
 
             <div className="flex flex-col gap-6">
@@ -81,7 +81,7 @@ const About = () => {
                   drukmajster3d.pl
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Platforma druku 3D
+                  E-commerce i konfiguracja usług druku 3D
                 </p>
               </div>
 
@@ -91,7 +91,7 @@ const About = () => {
                   engleo.pl
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Serwis inżynierski
+                  Portal usług inżynierskich z panelem klienta
                 </p>
               </div>
 
@@ -101,7 +101,7 @@ const About = () => {
                   auralasu.pl
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Serwis usług
+                  Serwis usług z rezerwacjami i płatnościami
                 </p>
               </div>
             </div>
@@ -110,14 +110,14 @@ const About = () => {
           {/* 03. FOCUS */}
           <motion.div style={{ y: y4, opacity: opacity4 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              03. Zainteresowania
+              03. Kierunek
             </h3>
             <ul className="flex flex-col">
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Tworzenie Oprogramowania i Aplikacji
+                Frontend, backend i architektura aplikacji webowych
               </li>
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Sztuczna Inteligencja i Wizja Komputerowa
+                Interakcje w przeglądarce, AI i wizja komputerowa
               </li>
             </ul>
           </motion.div>

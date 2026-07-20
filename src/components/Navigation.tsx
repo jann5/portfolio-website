@@ -13,9 +13,9 @@ interface SocialItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "O Mnie", href: "#about", number: "01" },
+  { label: "Podejście", href: "#about", number: "01" },
   { label: "Projekty", href: "#work", number: "02" },
-  { label: "Umiejętności", href: "#philosophy", number: "03" },
+  { label: "Warsztat", href: "#philosophy", number: "03" },
   { label: "Kontakt", href: "#contact", number: "04" },
 ];
 
@@ -148,7 +148,7 @@ const Navigation = () => {
             {/* Socials row */}
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mb-4 pt-10 md:pt-0">
               <p className="text-sm text-white/70 uppercase tracking-widest font-mono mr-2">
-                Społeczne
+                Profile
               </p>
               {socialItems.map((item, i) => (
                 <motion.a

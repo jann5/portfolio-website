@@ -63,7 +63,7 @@ const AvailabilityBadge = () => (
       <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
     </span>
     <span className="font-sans font-black text-[9px] tracking-[0.25em] uppercase text-white">
-      Available for work
+      Dostępny do współpracy
     </span>
   </motion.div>
 );
@@ -119,7 +119,7 @@ const SpinningCTA = () => (
       .cta-wrap { transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
       .cta-wrap:hover { transform: scale(1.08); }
     `}</style>
-    <a href="#contact" className="cta-wrap group relative flex items-center justify-center w-[130px] h-[130px]" aria-label="Get in touch">
+    <a href="#contact" className="cta-wrap group relative flex items-center justify-center w-[130px] h-[130px]" aria-label="Przejdź do kontaktu">
       <svg viewBox="0 0 130 130" className="absolute inset-0 w-full h-full pointer-events-none">
         <circle cx="65" cy="65" r="62" fill="none" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5" />
       </svg>
@@ -128,7 +128,7 @@ const SpinningCTA = () => (
           <path id="cta-circle-path" d="M65,65 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0" />
         </defs>
         <text fill="rgba(255,255,255,1)" fontSize="8.5" fontFamily="'Inter', sans-serif" fontWeight="900" letterSpacing="4">
-          <textPath href="#cta-circle-path">GET IN TOUCH · GET IN TOUCH · GET IN TOUCH ·&nbsp;</textPath>
+          <textPath href="#cta-circle-path">POROZMAWIAJMY · POROZMAWIAJMY · POROZMAWIAJMY ·&nbsp;</textPath>
         </text>
       </svg>
       <span className="absolute inset-4 rounded-full bg-white scale-0 group-hover:scale-100 transition-transform duration-500 ease-in-out" style={{ transformOrigin: "center" }} />
@@ -210,13 +210,13 @@ const Index = () => {
           >
             <a href="#contact" className="group relative overflow-hidden border border-white/30 px-5 py-3 flex items-center gap-3 hover:border-white transition-colors duration-500 w-fit mb-6 md:hidden">
               <span className="absolute inset-0 bg-white translate-x-[-101%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
-              <span className="relative font-sans font-black text-[10px] tracking-[0.25em] uppercase text-white group-hover:text-black transition-colors duration-300 z-10">Get in touch</span>
+              <span className="relative font-sans font-black text-[10px] tracking-[0.25em] uppercase text-white group-hover:text-black transition-colors duration-300 z-10">Kontakt</span>
               <svg className="relative w-3 h-3 text-white group-hover:text-black transition-colors duration-300 z-10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M1 6h10M6 1l5 5-5 5" />
               </svg>
             </a>
             <h1 className="font-sans font-bold text-7xl md:text-8xl lg:text-[9rem] xl:text-[11rem] leading-[0.85] tracking-tighter text-white uppercase text-left">
-              Logika<br />w kodzie
+              Web<br />od podstaw
             </h1>
           </motion.div>
         </div>
@@ -230,7 +230,7 @@ const Index = () => {
           >
             <div className="w-12 h-[2px] bg-white mb-6 md:hidden" />
             <p className="font-sans text-xs md:text-sm font-medium text-white leading-relaxed tracking-wide uppercase text-left">
-              Tworzę systemy, w których architektura wyprzedza interfejs. Buduję rozwiązania odporne na błędy i gotowe na skalowanie.
+              Łączę projektowanie interfejsów, logikę aplikacji i wdrożenie w kompletne doświadczenia webowe.
             </p>
           </motion.div>
         </div>

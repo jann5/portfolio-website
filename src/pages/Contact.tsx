@@ -81,7 +81,7 @@ const Contact = () => {
               Formularz Kontaktowy
             </h2>
             <p className="text-base md:text-lg font-normal leading-relaxed text-black/80 max-w-md text-left">
-              Wyślij mi wiadomość a odpowiem tak szybko jak się da. Razem możemy tworzyć coś wspaniałego.
+              Masz pomysł na produkt, stronę albo eksperyment webowy? Napisz kilka zdań — odpowiem możliwie szybko.
             </p>
           </motion.div>
         </div>

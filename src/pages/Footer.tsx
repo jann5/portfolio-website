@@ -53,7 +53,7 @@ const Footer = () => {
             Jan Nawrot
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Programista Full Stack
+            Twórca stron i aplikacji webowych
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
             Tarnowo Podgórne, Polska
@@ -101,10 +101,10 @@ const Footer = () => {
               Zbudowano w: React / GSAP / Framer / Lenis
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Krój pisma: Inter / Halvetica
+              Krój pisma: Inter / Helvetica
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Wdrożono na: Vercel
+              Publikacja: GitHub Pages
             </p>
           </div>
 

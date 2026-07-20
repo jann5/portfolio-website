@@ -8,7 +8,7 @@ const MagicBento = () => {
         {/* Section Header */}
         <div className="mb-24">
           <h2 className="font-sans text-xs font-bold uppercase tracking-[0.2em]">
-            Kilka Liczb O Mnie
+            Obszary pracy
           </h2>
         </div>
 
@@ -16,31 +16,31 @@ const MagicBento = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-40">
 
           <SwissItem
-            value={20}
-            suffix="+"
-            label="WDROŻENIA WEB"
-            description="Od prostych landing page'y po zaawansowane aplikacje – kompleksowa realizacja od makiety po finalny deploy."
+            value={1}
+            suffix=" / 04"
+            label="FRONTEND"
+            description="Responsywne interfejsy, mocna typografia, animacje i komponenty zaprojektowane z myślą o użytkowniku."
           />
 
           <SwissItem
             value={2}
-            suffix="+"
-            label="lata Doświadczenia"
-            description="Tworzenie interfejsów, które nie tylko dobrze wyglądają, ale są intuicyjne i zaprojektowane pod kątem doświadczeń użytkownika (UX)."
+            suffix=" / 04"
+            label="APLIKACJE"
+            description="Logika po stronie serwera, dane, konta użytkowników i funkcje, które zamieniają stronę w użyteczne narzędzie."
           />
 
           <SwissItem
-            value={95}
-            suffix="%"
-            label="WYDAJNOŚĆ (SEO)"
-            description="Optymalizacja pod kątem Core Web Vitals – gwarancja błyskawicznego ładowania i lepszych pozycji w wyszukiwarce Google."
+            value={3}
+            suffix=" / 04"
+            label="INTERAKCJE"
+            description="Doświadczenia wykorzystujące możliwości przeglądarki: Canvas, MediaDevices API, animacje i nietypowe interfejsy."
           />
 
           <SwissItem
-            value={12}
-            suffix="+"
-            label="NARZĘDZIA (STACK)"
-            description="Biegłość w React, Next.js, Tailwind, TypeScript i innych nowoczesnych standardach webowych."
+            value={4}
+            suffix=" / 04"
+            label="WDROŻENIE"
+            description="Porządek w kodzie, wydajność i publikacja gotowego projektu — od lokalnego środowiska do wersji online."
           />
 
         </div>

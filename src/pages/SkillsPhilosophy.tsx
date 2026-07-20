@@ -56,11 +56,11 @@ const SkillsPhilosophy = () => {
           className="grid grid-cols-1 md:grid-cols-5 gap-y-8"
         >
           <div className="md:col-span-1">
-            <h2 className="text-xs font-bold uppercase tracking-widest">Umiejętności i Filozofia</h2>
+            <h2 className="text-xs font-bold uppercase tracking-widest">Warsztat</h2>
           </div>
           <div className="md:col-span-4">
             <blockquote className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-black uppercase leading-tight">
-              „Kod jest jak sztuka: ma działać dobrze, ale też wyglądać z klasą.”
+              „Dobry interfejs prowadzi użytkownika tak, że nie musi zastanawiać się, co zrobić dalej.”
             </blockquote>
             <p className="mt-6">— Jan Nawrot</p>
           </div>

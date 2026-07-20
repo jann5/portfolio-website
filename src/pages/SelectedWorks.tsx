@@ -8,16 +8,16 @@ const projects = [
     id: "001",
     title: "Camera Web App",
     stack: "React / JavaScript / MediaDevices API / Canvas",
-    description: "Aplikacja do przechwytywania obrazu z kamery internetowej z zaawansowanym śledzeniem ruchu ręki i funkcją AirCanvas, umożliwiającą rysowanie w powietrzu.",
+    description: "Eksperyment z wizją komputerową w przeglądarce: obraz z kamery, śledzenie dłoni i AirCanvas do rysowania gestem.",
     links: { live: "https://jann5.github.io/camera-web-app/", code: "#" },
     image: "/p1.png",
-    cta: "Projekt Live"
+    cta: "Zobacz projekt"
   },
   {
     id: "002",
     title: "drukmajster3d.pl",
     stack: "React / Node.js / Firebase / e-commerce",
-    description: "Kompleksowa platforma e-commerce do druku 3D i sprzedaży usług drukowania, integrująca zarządzanie zamówieniami i katalog produktów.",
+    description: "Platforma dla usług druku 3D łącząca katalog produktów, ofertę usług oraz obsługę zamówień w jednym miejscu.",
     links: { live: "https://drukmajster3d.pl", code: "#" },
     image: "/p2.png",
     cta: "Odwiedź Stronę"
@@ -26,7 +26,7 @@ const projects = [
     id: "003",
     title: "engleo.pl",
     stack: "React / Node.js / Firebase",
-    description: "Portal usług inżynierskich z systemem rezerwacji, zarządzaniem projektami i kompleksowym panelem klienta dla firm budowlanych.",
+    description: "Portal dla branży inżynierskiej z rezerwacjami, zarządzaniem projektami i panelem klienta dla firm budowlanych.",
     links: { live: "https://engleo.pl", code: "#" },
     image: "./p3.png",
     cta: "Odwiedź Stronę"
@@ -35,7 +35,7 @@ const projects = [
     id: "004",
     title: "auralasu.pl",
     stack: "React / Firebase / Cloud Functions",
-    description: "Serwis usług z systemem zarządzania rezerwacjami, przeglądaniem dostępności, recenzjami klientów i integracją płatności.",
+    description: "Serwis usługowy z rezerwacjami, dostępnością terminów, opiniami klientów i integracją płatności.",
     links: { live: "https://auralasu.pl", code: "#" },
     image: "./p4.png",
     cta: "Odwiedź Stronę"
