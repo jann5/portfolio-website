@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const BACKEND_URL = import.meta.env.VITE_CONTACT_ENDPOINT || "http://localhost:3001/send";
+const BACKEND_URL = import.meta.env.VITE_CONTACT_ENDPOINT || "/api/send";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
