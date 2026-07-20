@@ -4,17 +4,23 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
+const { MAIL_USER, MAIL_APP_PASSWORD, MAIL_TO = MAIL_USER } = process.env;
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:8080").split(",");
 
-app.use(cors());
+if (!MAIL_USER || !MAIL_APP_PASSWORD || !MAIL_TO) {
+  throw new Error("Brakuje konfiguracji poczty. Uzupełnij plik server/.env.");
+}
+
+app.use(cors({ origin: allowedOrigins }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'hejkatuhejka3@gmail.com', // Twój adres Gmail
-    pass: 'uxdm oera klvs zhbs', // Hasło aplikacji
+    user: MAIL_USER,
+    pass: MAIL_APP_PASSWORD,
   },
 });
 
@@ -22,8 +28,8 @@ app.post('/send', async (req, res) => {
   const { firstName, lastName, email, subject, message } = req.body;
 
   const mailOptions = {
-    from: 'hejkatuhejka3@gmail.com',
-    to: 'hejkatuhejka3@gmail.com',
+    from: MAIL_USER,
+    to: MAIL_TO,
     subject: subject || 'Nowa wiadomość z portfolio',
     text: `Imię: ${firstName}\nNazwisko: ${lastName}\nEmail: ${email}\nWiadomość: ${message}`,
   };
@@ -32,7 +38,8 @@ app.post('/send', async (req, res) => {
     await transporter.sendMail(mailOptions);
     res.status(200).json({ success: true });
   } catch (error) {
-    res.status(500).json({ success: false, error: error.message });
+    console.error("Nie udało się wysłać formularza:", error.message);
+    res.status(500).json({ success: false });
   }
 });
 
