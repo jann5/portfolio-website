@@ -85,7 +85,7 @@ Zróbmy razem coś dobrego.
 
 - **Email**: [janek.nawrot@gmail.com](mailto:janek.nawrot@gmail.com)
 - **GitHub**: [jann5](https://github.com/jann5)
-- **LinkedIn**: [jann5](https://www.linkedin.com/in/jann5/)
+- **LinkedIn**: [Jan Nawrot](https://www.linkedin.com/in/jan-nawrot-b85aa720a/)
 - **Dostępność**: Obecnie otwarty na współpracę.
 
 ---

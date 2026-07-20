@@ -21,7 +21,7 @@ const navItems: NavItem[] = [
 
 const socialItems: SocialItem[] = [
   { label: "GitHub", href: "https://github.com/jann5" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/jann5/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/jan-nawrot-b85aa720a/" },
   { label: "Instagram", href: "https://www.instagram.com/jann5/" },
   { label: "Email", href: "mailto:janek.nawrot@gmail.com" },
 ];

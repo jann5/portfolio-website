@@ -73,7 +73,7 @@ const Footer = () => {
               Email ↗
             </a>
             <a
-              href="https://www.linkedin.com/in/jann5/"
+              href="https://www.linkedin.com/in/jan-nawrot-b85aa720a/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
