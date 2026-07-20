@@ -46,7 +46,7 @@ const About = () => {
           style={{ y: y1, opacity: opacity1 }}
         >
           <h2 className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest">
-            Podejście i realizacje
+            Podejście
           </h2>
         </motion.div>
 
@@ -56,14 +56,14 @@ const About = () => {
           {/* 01. APPROACH */}
           <motion.div style={{ y: y2, opacity: opacity2 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              01. Podejście
+              01. Jak pracuję
             </h3>
             <div className="flex flex-col">
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Od koncepcji do działającego produktu
+                Od idei do dopracowanego doświadczenia
               </p>
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                Projektuję interfejs, buduję logikę aplikacji i dopracowuję wdrożenie.
+                Zaczynam od celu i struktury, a później łączę interfejs, technologię i detale w spójną całość.
               </p>
             </div>
           </motion.div>
@@ -71,37 +71,37 @@ const About = () => {
           {/* 02. EXPERIENCE */}
           <motion.div style={{ y: y3, opacity: opacity3 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              02. Wybrane realizacje
+              02. Co buduję
             </h3>
 
             <div className="flex flex-col gap-6">
               {/* Project 1 */}
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  drukmajster3d.pl
+                  Strony i doświadczenia webowe
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  E-commerce i konfiguracja usług druku 3D
+                  Czytelne interfejsy, mocna typografia i ruch, który wspiera treść.
                 </p>
               </div>
 
               {/* Project 2 */}
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  engleo.pl
+                  Aplikacje webowe
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Portal usług inżynierskich z panelem klienta
+                  Systemy z logiką, danymi, kontami użytkowników i panelem klienta.
                 </p>
               </div>
 
               {/* Project 3 */}
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  auralasu.pl
+                  Interakcje w przeglądarce
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Serwis usług z rezerwacjami i płatnościami
+                  Canvas, obsługa kamery, animacje i eksperymenty z nowymi sposobami interakcji.
                 </p>
               </div>
             </div>
