@@ -37,7 +37,7 @@ const About = () => {
   const opacity4 = useTransform(scrollY, [vh * 0.3, vh * 0.6], [0, 1]);
 
   return (
-    <section className="h-screen w-full bg-white text-black font-sans px-6 md:px-12 lg:px-16 overflow-hidden flex items-center justify-center relative">
+    <section className="min-h-screen w-full bg-white text-black font-sans px-6 pt-28 pb-16 md:h-screen md:px-12 md:py-0 lg:px-16 overflow-visible md:overflow-hidden flex items-start md:items-center justify-center relative">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-y-8 md:gap-x-12 w-full max-w-[1600px] mx-auto">
 
         {/* Left Column: Context Label */}

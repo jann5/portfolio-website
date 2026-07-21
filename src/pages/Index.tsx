@@ -41,7 +41,7 @@ const CursorFollower = () => {
 };
 
 const BrandLogo = () => (
-  <div className="fixed top-6 left-6 md:top-8 md:left-10 z-50 mix-blend-difference">
+  <div className="absolute md:fixed top-6 left-6 md:top-8 md:left-10 z-50 mix-blend-difference">
     <h1 className="font-sans font-black text-2xl md:text-4xl tracking-tighter text-white flex items-start">
       JAN NAWROT
       <span className="text-xs md:text-lg font-medium ml-1 -mt-1 md:-mt-2">®</span>
@@ -160,8 +160,8 @@ const Index = () => {
       <CursorFollower />
       <Navigation />
 
-      {/* Fixed background About section */}
-      <div className="fixed inset-0 z-0 bg-white text-black">
+      {/* Fixed background About section on desktop */}
+      <div className="fixed inset-0 z-0 hidden md:block bg-white text-black">
         <About />
       </div>
 
@@ -218,7 +218,11 @@ const Index = () => {
 
       {/* Content stack */}
       <div className="relative z-20 w-full bg-transparent">
-        <div id="about" className="h-screen w-full pointer-events-none" />
+        <div id="about" className="relative z-20 w-full md:h-screen md:pointer-events-none">
+          <div className="md:hidden">
+            <About />
+          </div>
+        </div>
 
         <div id="work" className="bg-black text-white relative z-20">
           <SelectedWorks />
